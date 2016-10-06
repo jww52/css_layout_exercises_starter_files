@@ -1,1 +1,69 @@
 
+.navbar{
+	position: fixed;
+	width: 100%;
+	height: 5em;
+	background-color: grey;
+}
+
+.nav {
+	padding-left: 60px;
+	padding-right: 60px;
+}
+.icon {
+	position: absolute;
+	display: block;
+	left: 40px;
+	border-radius: 50%;
+	max-width: 25%
+	height: auto;
+}
+
+ul {
+	margin-left: 150px;
+}
+
+li {
+	display: inline;
+  	list-style-type: none;
+  	padding-right: 10px;
+  	padding-left: 10px;
+  	float: left;
+  	border-right: solid;  	
+}
+li.active {
+	color: yellow;
+}
+
+li.visited {
+	color: purple;
+}
+
+main {
+	margin-top: 5em;
+	position: relative;
+	width: 790px;
+	height: 490px;
+}
+
+.greenbox {
+	width: 600px;
+	height: 300px;
+	border: 10px dotted green;
+	margin: auto;
+	margin-top: 7em;
+	display: block;
+}
+
+.cat {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	display: inline-block;
+	float: left;
+
+}
+
+.background {
+	background-size: cover;
+}
